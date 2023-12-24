@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --text-xs: .75rem;
+    --text-sm: .875rem;
+    --text-md: 1rem;
+    --text-lg: 1.25rem;
+    --text-xl: 1.5rem;
+    --text-xxl: 1.75rem;
+    --text-3xl: 2rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 2.5rem;
+
+    --icon-size-md: 1rem;
+
+    --color-dark-grey: #434343;
+    --color-grey-md: #666;
+    --color-pink: #f11682;
+
+    --color-primary:  var(--color-dark-grey);
+    --color-primary-bg: var(--color-dark-grey);
+    --text-color-primary: var(--color-grey-md);
+    --font-fm-poppins: 'Poppins', 'Roboto', sans-serif;
+}
+
+
+body {
+    color: var(--text-color-primary);
+}
+
+#app-container {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin-inline: auto !important;
+}
+
+
+/* Button */
+.btn {
+    padding: .6rem 1.5rem;
+    border: none;
+    outline: transparent;
+    cursor: pointer;
+    font-size: var(--font-md);
+    border-radius: .25rem;
+<<<<<<< HEAD
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-primary:focus-visible {
+    background-color: #409aff;
+}
+
+
+/* Header */
+.page-header {
+    min-height: 5rem;
+    padding-inline: .5rem;
+}
+
+/*  */
+
+/* Carousel */
+
+.carousel-container {
+    height: 400px;
+    position: relative;
+}
+
+.carousel-body {
+    height: inherit;
+    overflow: hidden;
+    /* border: 4px solid darkred; */
+=======
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-sm {
+    font-size: var(--text-sm);
+}
+
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    color: #fff !important;
+}
+
+.btn-primary:focus-visible {
+    background-color: var(--color-primary) !important;
+>>>>>>> a3b95bfe40b0048aa7834916fbc4e067082fa031
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    line-height: 1;
+    font-size: var(--text-sm);
+
+}
+
+.btn-icon svg {
+    height: var(--icon-size-md);
+    width: var(--icon-size-md);
+}
+
+/*  */
+
+.page-container {
+    /* padding-inline: .5rem; */
+    min-height: 100vh;
+}
