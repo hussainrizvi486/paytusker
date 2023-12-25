@@ -67,7 +67,6 @@ const Product = () => {
                     </section>
                 </section>
 
-<<<<<<< HEAD
                 <section className="product-info__details">
                     <div>
 
@@ -87,14 +86,7 @@ const Product = () => {
                     </div>
 
                 </section>
-            </section>
-=======
-                <div className="product-page__description-section">
-                    <div style={{ fontSize: "1.25rem", fontWeight: "600" }}>Description</div>
-                    <br />
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda quam nobis. Enim sapiente eos corrupti ullam! Voluptas delectus, maiores magni assumenda, eum error nemo ipsa fuga debitis culpa ullam iusto aliquid odit mollitia maxime rem sequi cupiditate. Tenetur, quaerat?</div>
-                </div>
->>>>>>> a3b95bfe40b0048aa7834916fbc4e067082fa031
+
 
             </main>
         </>
